@@ -1,0 +1,98 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Main styles */
+main {
+    padding: 2rem;
+}
+
+/* Item page styles */
+.item-page {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.item-page img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.item-page p {
+    margin-bottom: 0.5rem;
+}
+
+.item-page button {
+    padding: 0.75rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.item-page button:hover {
+    background-color: #555;
+}
+
+/* Related products styles */
+.related-products {
+    margin-top: 2rem;
+}
+
+.related-products h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.related-products ul {
+    list-style: none;
+}
+
+.related-products ul li {
+    margin-bottom: 0.5rem;
+}
+
+.related-products ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.related-products ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
